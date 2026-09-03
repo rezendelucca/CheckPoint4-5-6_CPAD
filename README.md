@@ -1,26 +1,51 @@
 # 🎯 FocusPoint
 
-## 📚 Sobre o projeto
+> **Encontre seu método. Mantenha seu foco.**
 
 O **FocusPoint** é um aplicativo voltado para estudantes que desejam melhorar o foco, a produtividade e a organização durante suas sessões de estudo.
 
-A proposta do aplicativo é reunir diferentes métodos de estudo em um único ambiente, permitindo que o usuário escolha a técnica mais adequada para cada momento e realize sessões de estudo de forma simples e organizada.
-
-O projeto está sendo desenvolvido utilizando **Flutter e Dart**, com a interface, identidade visual e protótipo planejados inicialmente no **Figma**.
+A proposta é reunir diferentes métodos de estudo em um único ambiente, permitindo que o usuário conheça cada técnica, escolha a mais adequada para sua necessidade e realize sessões de estudo de maneira simples e organizada.
 
 ---
 
-## ❗ Problema
+## 🔗 Links do projeto
 
-Muitos estudantes enfrentam dificuldades para manter o foco durante os estudos, organizar o tempo e escolher uma metodologia adequada para diferentes tipos de conteúdo.
+### 🎨 Protótipo e Identidade Visual — Figma
 
-Além disso, técnicas como Pomodoro, Feynman, Active Recall e Sistema Leitner possuem propostas diferentes e muitas vezes são utilizadas de maneira isolada.
+[🔗 Acessar o projeto FocusPoint no Figma](https://www.figma.com/design/NpZ4CHYicY21IuoGD829oa/CheckPoint_cpad?node-id=0-1&p=f&t=1id8naTyvHdnJTyU-0)
 
-O **FocusPoint** busca centralizar essas técnicas em uma única aplicação, facilitando o acesso aos métodos e permitindo que o estudante escolha a estratégia mais adequada de acordo com sua necessidade.
+No Figma estão disponíveis a identidade visual, o logo, as telas do aplicativo e a prototipação das principais interações planejadas para o FocusPoint.
 
 ---
 
-## 🎯 Público-alvo
+# 📚 Sobre o projeto
+
+O **FocusPoint** foi idealizado como uma ferramenta para auxiliar estudantes na organização de suas sessões de estudo.
+
+Em vez de disponibilizar apenas um cronômetro genérico, o aplicativo apresenta diferentes metodologias de estudo, explicando suas propostas e oferecendo tempos de estudo e pausa adequados para cada uma delas.
+
+O projeto utiliza **Flutter e Dart** para o desenvolvimento da aplicação e **Figma** para criação da identidade visual e prototipação da interface.
+
+---
+
+# ❗ Problema
+
+Muitos estudantes enfrentam dificuldades para:
+
+- Manter o foco durante os estudos;
+- Organizar adequadamente o tempo;
+- Evitar distrações;
+- Escolher uma metodologia de estudo;
+- Manter uma rotina de estudos organizada;
+- Encontrar uma técnica adequada para diferentes tipos de conteúdo.
+
+Além disso, métodos como **Pomodoro, Feynman, Active Recall e Sistema Leitner** possuem propostas diferentes e muitas vezes são encontrados ou utilizados separadamente.
+
+O **FocusPoint** busca centralizar essas técnicas em uma única aplicação, facilitando o acesso aos métodos e permitindo que o estudante escolha a estratégia mais adequada para sua necessidade.
+
+---
+
+# 🎯 Público-alvo
 
 O FocusPoint é direcionado principalmente para:
 
@@ -28,7 +53,17 @@ O FocusPoint é direcionado principalmente para:
 - Estudantes universitários;
 - Pessoas que estudam para vestibulares e concursos;
 - Pessoas que desejam melhorar sua produtividade durante os estudos;
-- Usuários que buscam métodos para aumentar o foco e organizar suas sessões de estudo.
+- Usuários interessados em técnicas de foco e aprendizagem.
+
+---
+
+# 💜 Proposta de valor
+
+> **Diferentes formas de estudar. Um único ponto para manter o foco.**
+
+O FocusPoint busca tornar diferentes métodos de estudo mais acessíveis, reunindo técnicas de aprendizagem e foco em uma experiência simples e centralizada.
+
+Dessa forma, o estudante pode conhecer diferentes estratégias e selecionar aquela que melhor se adapta ao seu objetivo de estudo.
 
 ---
 
@@ -43,14 +78,15 @@ O MVP (**Minimum Viable Product**) do FocusPoint prevê as seguintes funcionalid
 - Tempo de estudo específico para cada técnica;
 - Tempo de pausa recomendado;
 - Cronômetro para sessões de estudo;
-- Possibilidade de pausar e continuar o cronômetro;
+- Possibilidade de pausar o cronômetro;
+- Possibilidade de continuar uma sessão pausada;
 - Navegação entre a seleção do método e a sessão de estudo.
 
 ---
 
-## 📖 Métodos de estudo
+# 📖 Métodos de estudo
 
-### 🍅 Técnica Pomodoro
+## 🍅 Técnica Pomodoro
 
 A Técnica Pomodoro utiliza períodos de foco de **25 minutos**, seguidos por pausas curtas de **5 minutos**.
 
@@ -61,7 +97,7 @@ A Técnica Pomodoro utiliza períodos de foco de **25 minutos**, seguidos por pa
 
 ---
 
-### 🧠 Técnica Feynman
+## 🧠 Técnica Feynman
 
 Método baseado no estudo ativo, no qual o estudante tenta explicar o assunto utilizando palavras simples.
 
@@ -72,7 +108,7 @@ Método baseado no estudo ativo, no qual o estudante tenta explicar o assunto ut
 
 ---
 
-### 🔄 Active Recall — Evocação Ativa
+## 🔄 Active Recall — Evocação Ativa
 
 Método baseado em testar a memória tentando recuperar uma informação sem consultar imediatamente o material estudado.
 
@@ -83,7 +119,7 @@ Método baseado em testar a memória tentando recuperar uma informação sem con
 
 ---
 
-### 🗂️ Sistema Leitner — Flashcards
+## 🗂️ Sistema Leitner — Flashcards
 
 Sistema de revisão espaçada utilizando cartões organizados de acordo com o nível de dificuldade do conteúdo.
 
@@ -96,116 +132,112 @@ Sistema de revisão espaçada utilizando cartões organizados de acordo com o n�
 
 # 🏷️ Desenvolvimento da marca
 
-## Nome — FocusPoint
+## 🎯 Nome — FocusPoint
 
 O nome **FocusPoint** combina duas palavras:
 
-- **Focus:** representa foco, concentração e produtividade;
-- **Point:** representa um ponto ou lugar central.
+**Focus** representa foco, concentração e produtividade.
 
-A ideia do nome é representar o aplicativo como um **ponto central para foco e diferentes métodos de estudo**.
+**Point** representa um ponto ou lugar central.
+
+A união dessas duas palavras representa a proposta do aplicativo de ser um **ponto central para diferentes métodos de estudo e foco**.
 
 Dentro do FocusPoint, o estudante pode encontrar diferentes técnicas e escolher aquela que melhor atende às suas necessidades naquele momento.
 
 ---
 
-## 🗣️ Tom de voz
+## 💭 Naming Rationale
+
+O nome foi escolhido buscando representar de maneira simples a principal proposta do aplicativo.
+
+O **FocusPoint** funciona como um ponto de encontro entre diferentes estratégias de aprendizagem, oferecendo ao estudante um ambiente centralizado para selecionar métodos e organizar suas sessões de foco.
+
+O uso de um nome curto também busca facilitar a identificação e memorização da marca.
+
+---
+
+# 🗣️ Tom de voz
 
 A comunicação do FocusPoint busca ser:
 
-- Simples;
-- Direta;
-- Motivadora;
-- Acessível;
-- Informativa.
+- **Simples:** informações apresentadas sem complexidade desnecessária;
+- **Direta:** instruções e informações objetivas;
+- **Motivadora:** incentivar o usuário durante os estudos;
+- **Acessível:** linguagem fácil de compreender;
+- **Informativa:** explicar de maneira resumida os métodos disponíveis.
 
-A proposta é apresentar diferentes métodos de estudo sem tornar a experiência complicada ou excessivamente técnica.
+A proposta é apresentar diferentes técnicas de estudo sem tornar a experiência complicada ou excessivamente técnica.
 
 ---
 
 # 🎨 Identidade visual
 
-A identidade visual do FocusPoint foi inicialmente desenvolvida utilizando o **Figma**.
+A identidade visual do **FocusPoint** foi desenvolvida utilizando o **Figma**.
 
-O protótipo busca apresentar uma interface simples e objetiva, priorizando a visualização das técnicas de estudo e permitindo acesso rápido às sessões de foco.
+A interface foi planejada buscando simplicidade, organização e facilidade de navegação.
 
-A interface utiliza elementos como:
+O projeto utiliza:
 
 - Cards para separar os diferentes métodos;
 - Cabeçalhos destacados;
 - Botões de ação;
 - Cronômetros circulares;
-- Hierarquia visual entre título, descrição, benefícios e tempo de pausa;
-- Padronização visual entre as diferentes telas;
-- Interface simples e de fácil compreensão.
+- Hierarquia entre títulos e informações;
+- Destaques visuais para os benefícios das técnicas;
+- Padronização entre as diferentes telas;
+- Cores específicas para cada tipo de elemento;
+- Tipografia consistente.
 
 ---
 
-## 🎨 Paleta de cores
+# 🖼️ Logo
 
-A interface utiliza principalmente:
+O logo do **FocusPoint** foi desenvolvido como parte da identidade visual do projeto e pode ser visualizado no arquivo do Figma.
 
-- 🟣 **Roxo:** identidade principal da aplicação e cabeçalhos;
-- 🟠 **Laranja:** botões e ações importantes;
-- 🟢 **Verde:** destaque para os benefícios das técnicas;
-- ⚪ **Branco:** fundo principal da aplicação;
-- ⚫ **Tons escuros:** textos e contraste;
-- 🔘 **Cinza:** cards e elementos secundários.
-
-A combinação foi escolhida buscando criar uma interface moderna, organizada e com contraste entre informações e ações.
+🔗 [Visualizar identidade visual no Figma](https://www.figma.com/design/NpZ4CHYicY21IuoGD829oa/CheckPoint_cpad?node-id=0-1&p=f&t=1id8naTyvHdnJTyU-0)
 
 ---
 
-## ✏️ Tipografia
+# 🎨 Paleta de cores
 
-A tipografia do projeto busca priorizar:
+A paleta de cores do FocusPoint foi desenvolvida buscando criar uma identidade visual moderna, organizada e de fácil identificação.
 
-- Boa legibilidade;
-- Textos objetivos;
-- Destaque para títulos;
-- Diferenciação entre informações principais e secundárias;
-- Facilidade de leitura em dispositivos móveis.
+| Cor | Código HEX | Aplicação |
+|---|---|---|
+| 🟣 Roxo Principal | `#2D015C` | Identidade principal, cabeçalhos e elementos de destaque |
+| 🟢 Verde | `#0CE6A9` | Destaque para os benefícios dos métodos de estudo |
+| 🟠 Laranja | `#F29D01` | Botões e principais ações da interface |
+| ⚪ Branco | `#FFFFFF` | Texto dos botões e elementos de contraste |
+| 🔘 Cinza | `#D9D9D9` | Fundo dos cards e painéis |
+| ⚫ Preto | `#000000` | Textos e elementos auxiliares |
 
----
+O **roxo** funciona como a cor principal da marca e cria a identidade do FocusPoint.
 
-# 💡 Ideia de venda
+O **laranja** é utilizado principalmente para destacar ações que podem ser realizadas pelo usuário.
 
-Existem diversas ferramentas voltadas para produtividade e aplicativos que oferecem cronômetros de estudo, principalmente baseados na Técnica Pomodoro.
+O **verde** destaca os benefícios apresentados em cada método de estudo.
 
-Entretanto, diferentes estudantes possuem diferentes formas de aprender.
-
-O **FocusPoint** busca oferecer uma alternativa ao reunir diferentes metodologias de estudo dentro de uma única aplicação.
-
-Em vez de oferecer apenas um cronômetro, o aplicativo permite que o estudante conheça diferentes estratégias e escolha uma técnica de acordo com o tipo de atividade que deseja realizar.
-
----
-
-## 🚀 Diferencial competitivo
-
-O principal diferencial do FocusPoint é funcionar como um **hub de métodos de estudo**.
-
-Em uma única aplicação, o usuário poderá escolher entre:
-
-- Pomodoro;
-- Técnica Feynman;
-- Active Recall;
-- Sistema Leitner.
-
-Cada técnica possui uma proposta diferente e pode ser utilizada de acordo com o objetivo do estudante.
-
-Dessa forma, o FocusPoint busca evitar que o usuário precise utilizar diferentes aplicativos ou ferramentas para aplicar diferentes métodos de estudo.
+Os tons de **branco, cinza e preto** auxiliam na organização, contraste e legibilidade da interface.
 
 ---
 
-## 💜 Proposta de valor
+# ✏️ Tipografia
 
-> **Diferentes formas de estudar. Um único ponto para manter o foco.**
+A tipografia escolhida para a identidade visual do **FocusPoint** foi a fonte **Inter**, utilizando principalmente o peso **Bold**.
 
-O FocusPoint busca tornar diferentes métodos de estudo mais acessíveis, permitindo que o estudante encontre uma estratégia adequada para cada momento de sua rotina.
+### Fonte principal
+
+**Família tipográfica:** Inter  
+**Peso utilizado:** Bold  
+**Aplicação:** títulos, informações de destaque, botões e elementos principais da interface.
+
+A escolha busca proporcionar boa legibilidade em interfaces digitais e contribuir para uma aparência moderna, simples e objetiva.
+
+A tipografia acompanha a proposta visual do FocusPoint de oferecer uma experiência clara, organizada e de fácil compreensão.
 
 ---
 
-# 🖼️ Protótipo
+# 🖥️ Protótipo
 
 O protótipo inicial do FocusPoint foi desenvolvido utilizando o **Figma**.
 
@@ -214,13 +246,63 @@ Durante a etapa de prototipação foram planejadas:
 - Tela inicial com os métodos de estudo;
 - Cards com informações sobre cada técnica;
 - Botões para iniciar as sessões;
-- Tela de cronômetro;
+- Telas de cronômetro;
 - Contagem regressiva simulada;
 - Botão para pausar a sessão;
 - Botão para continuar a sessão;
 - Navegação entre as telas.
 
-O protótipo permite visualizar o fluxo principal da aplicação antes da implementação completa utilizando Flutter.
+A prototipação permite visualizar o fluxo principal da aplicação antes da implementação completa das interfaces utilizando Flutter.
+
+### 🔗 Acessar protótipo
+
+[**Abrir FocusPoint no Figma**](https://www.figma.com/design/NpZ4CHYicY21IuoGD829oa/CheckPoint_cpad?node-id=0-1&p=f&t=1id8naTyvHdnJTyU-0)
+
+---
+
+# 💡 Ideia de venda — Pitch
+
+Estudar não significa apenas passar horas lendo um conteúdo. Diferentes situações podem exigir diferentes estratégias de aprendizagem.
+
+O **FocusPoint** nasce com a proposta de reunir diferentes métodos de estudo em um único lugar.
+
+Em vez de utilizar apenas um cronômetro ou depender de diferentes ferramentas para aplicar cada técnica, o estudante encontra no FocusPoint métodos como **Pomodoro, Feynman, Active Recall e Sistema Leitner**.
+
+O objetivo é permitir que o usuário encontre uma técnica adequada para seu momento de estudo e mantenha suas sessões mais organizadas.
+
+> **FocusPoint: diferentes formas de estudar, em um único ponto para manter o foco.**
+
+---
+
+# 🚀 Diferencial competitivo
+
+Existem diversas ferramentas de produtividade que oferecem cronômetros, especialmente baseados na Técnica Pomodoro.
+
+O diferencial proposto pelo **FocusPoint** é reunir **diferentes metodologias de estudo em uma única aplicação**.
+
+O aplicativo não busca oferecer somente uma contagem regressiva, mas apresentar diferentes estratégias e permitir que o estudante escolha uma técnica de acordo com sua necessidade.
+
+Assim, o FocusPoint busca funcionar como um **hub de métodos de estudo**, evitando que o usuário precise recorrer a diferentes ferramentas para aplicar técnicas diferentes.
+
+---
+
+# 💰 Modelo de negócio
+
+Como possibilidade de evolução do produto, o FocusPoint poderá utilizar um **modelo Freemium**.
+
+A versão gratuita poderá disponibilizar as principais técnicas e recursos essenciais de estudo.
+
+Uma futura versão premium poderia adicionar funcionalidades como:
+
+- Estatísticas de estudo;
+- Histórico de sessões;
+- Personalização dos tempos;
+- Planejamento de estudos;
+- Novos métodos;
+- Temas personalizados;
+- Sincronização de dados entre dispositivos.
+
+Esses recursos representam possibilidades futuras e não fazem parte obrigatoriamente do MVP atual.
 
 ---
 
@@ -228,20 +310,22 @@ O protótipo permite visualizar o fluxo principal da aplicação antes da implem
 
 O projeto inicial foi criado utilizando **Flutter**, atendendo à etapa inicial de desenvolvimento solicitada no Checkpoint 4.
 
-Nesta etapa, o objetivo é garantir que a estrutura inicial do projeto esteja configurada corretamente e que a aplicação consiga ser executada sem erros.
+Nesta etapa, o objetivo é garantir que a estrutura inicial do projeto esteja configurada corretamente e que a aplicação consiga ser executada.
 
-A implementação completa das interfaces desenvolvidas no Figma será realizada nas próximas etapas do projeto.
+A implementação completa das interfaces desenvolvidas no Figma está prevista para etapas futuras do desenvolvimento.
 
 ---
 
-## 🛠️ Tecnologias utilizadas
+# 🛠️ Tecnologias utilizadas
 
-- **Flutter** — desenvolvimento da aplicação;
-- **Dart** — linguagem utilizada pelo Flutter;
-- **Figma** — identidade visual e prototipação;
-- **Git** — controle de versão;
-- **GitHub** — armazenamento e documentação do projeto;
-- **Visual Studio Code** — ambiente utilizado para desenvolvimento.
+| Tecnologia | Utilização |
+|---|---|
+| Flutter | Desenvolvimento da aplicação |
+| Dart | Linguagem utilizada pelo Flutter |
+| Figma | Identidade visual e prototipação |
+| Git | Controle de versão |
+| GitHub | Repositório e documentação |
+| Visual Studio Code | Ambiente de desenvolvimento |
 
 ---
 
@@ -252,7 +336,7 @@ Primeiramente, é necessário possuir o Flutter instalado e configurado.
 Clone o repositório:
 
 ```bash
-git clone URL_DO_REPOSITORIO
+git clone (https://github.com/rezendelucca/CheckPoint4-5-6_CPAD.git)
 ```
 
 Acesse a pasta:
@@ -267,7 +351,7 @@ Instale as dependências:
 flutter pub get
 ```
 
-Para verificar os dispositivos disponíveis:
+Verifique os dispositivos disponíveis:
 
 ```bash
 flutter devices
@@ -333,13 +417,17 @@ lib/main.dart
 - [x] Definição do público-alvo;
 - [x] Definição das principais funcionalidades do MVP;
 - [x] Desenvolvimento do nome e conceito da marca;
+- [x] Naming rationale;
 - [x] Definição do tom de voz;
+- [x] Desenvolvimento do logo;
 - [x] Desenvolvimento da identidade visual;
 - [x] Definição da paleta de cores;
 - [x] Definição da tipografia;
+- [x] Desenvolvimento das telas no Figma;
 - [x] Desenvolvimento do protótipo no Figma;
 - [x] Definição da proposta de valor;
 - [x] Definição do diferencial competitivo;
+- [x] Definição inicial do modelo de negócio;
 - [x] Projeto Flutter inicial criado;
 - [x] Build inicial do Flutter funcionando;
 - [x] Repositório GitHub criado;
@@ -351,7 +439,7 @@ lib/main.dart
 
 As próximas etapas previstas para o desenvolvimento do FocusPoint incluem:
 
-- Implementação da interface desenvolvida no Figma utilizando Flutter;
+- Implementação da interface do Figma utilizando Flutter;
 - Desenvolvimento do cronômetro funcional;
 - Implementação da Técnica Pomodoro;
 - Implementação da Técnica Feynman;
@@ -369,3 +457,5 @@ As próximas etapas previstas para o desenvolvimento do FocusPoint incluem:
 # 🎯 FocusPoint
 
 ### Encontre seu método. Mantenha seu foco.
+
+**Checkpoint 4 — Idealização do App**
