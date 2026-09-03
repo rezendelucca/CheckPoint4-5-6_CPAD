@@ -30,14 +30,7 @@ O projeto utiliza **Flutter e Dart** para o desenvolvimento da aplicação e **F
 
 # ❗ Problema
 
-Muitos estudantes enfrentam dificuldades para:
-
-- Manter o foco durante os estudos;
-- Organizar adequadamente o tempo;
-- Evitar distrações;
-- Escolher uma metodologia de estudo;
-- Manter uma rotina de estudos organizada;
-- Encontrar uma técnica adequada para diferentes tipos de conteúdo.
+Muitos estudantes enfrentam dificuldades para manter o foco durante os estudos, organizar adequadamente o tempo e escolher uma metodologia adequada para diferentes tipos de conteúdo.
 
 Além disso, métodos como **Pomodoro, Feynman, Active Recall e Sistema Leitner** possuem propostas diferentes e muitas vezes são encontrados ou utilizados separadamente.
 
@@ -136,11 +129,10 @@ Sistema de revisão espaçada utilizando cartões organizados de acordo com o n�
 
 O nome **FocusPoint** combina duas palavras:
 
-**Focus** representa foco, concentração e produtividade.
+- **Focus:** representa foco, concentração e produtividade;
+- **Point:** representa um ponto ou lugar central.
 
-**Point** representa um ponto ou lugar central.
-
-A união dessas duas palavras representa a proposta do aplicativo de ser um **ponto central para diferentes métodos de estudo e foco**.
+A união dessas palavras representa a proposta do aplicativo de ser um **ponto central para diferentes métodos de estudo e foco**.
 
 Dentro do FocusPoint, o estudante pode encontrar diferentes técnicas e escolher aquela que melhor atende às suas necessidades naquele momento.
 
@@ -176,17 +168,7 @@ A identidade visual do **FocusPoint** foi desenvolvida utilizando o **Figma**.
 
 A interface foi planejada buscando simplicidade, organização e facilidade de navegação.
 
-O projeto utiliza:
-
-- Cards para separar os diferentes métodos;
-- Cabeçalhos destacados;
-- Botões de ação;
-- Cronômetros circulares;
-- Hierarquia entre títulos e informações;
-- Destaques visuais para os benefícios das técnicas;
-- Padronização entre as diferentes telas;
-- Cores específicas para cada tipo de elemento;
-- Tipografia consistente.
+O projeto utiliza cards, cabeçalhos destacados, botões de ação, cronômetros circulares, hierarquia visual e padronização entre as diferentes telas.
 
 ---
 
@@ -194,7 +176,7 @@ O projeto utiliza:
 
 O logo do **FocusPoint** foi desenvolvido como parte da identidade visual do projeto e pode ser visualizado no arquivo do Figma.
 
-🔗 [Visualizar identidade visual no Figma](https://www.figma.com/design/NpZ4CHYicY21IuoGD829oa/CheckPoint_cpad?node-id=0-1&p=f&t=1id8naTyvHdnJTyU-0)
+[🔗 Visualizar identidade visual no Figma](https://www.figma.com/design/NpZ4CHYicY21IuoGD829oa/CheckPoint_cpad?node-id=0-1&p=f&t=1id8naTyvHdnJTyU-0)
 
 ---
 
@@ -205,7 +187,7 @@ A paleta de cores do FocusPoint foi desenvolvida buscando criar uma identidade v
 | Cor | Código HEX | Aplicação |
 |---|---|---|
 | 🟣 Roxo Principal | `#2D015C` | Identidade principal, cabeçalhos e elementos de destaque |
-| 🟢 Verde | `#0CE6A9` | Destaque para os benefícios dos métodos de estudo |
+| 🟢 Verde | `#087F5B` | Destaque para os benefícios dos métodos de estudo |
 | 🟠 Laranja | `#F29D01` | Botões e principais ações da interface |
 | ⚪ Branco | `#FFFFFF` | Texto dos botões e elementos de contraste |
 | 🔘 Cinza | `#D9D9D9` | Fundo dos cards e painéis |
@@ -213,9 +195,9 @@ A paleta de cores do FocusPoint foi desenvolvida buscando criar uma identidade v
 
 O **roxo** funciona como a cor principal da marca e cria a identidade do FocusPoint.
 
-O **laranja** é utilizado principalmente para destacar ações que podem ser realizadas pelo usuário.
+O **laranja** é utilizado principalmente para destacar as ações disponíveis para o usuário.
 
-O **verde** destaca os benefícios apresentados em cada método de estudo.
+O **verde** é utilizado para destacar os benefícios de cada método, utilizando um tom mais escuro para garantir boa legibilidade e contraste.
 
 Os tons de **branco, cinza e preto** auxiliam na organização, contraste e legibilidade da interface.
 
@@ -231,9 +213,7 @@ A tipografia escolhida para a identidade visual do **FocusPoint** foi a fonte **
 **Peso utilizado:** Bold  
 **Aplicação:** títulos, informações de destaque, botões e elementos principais da interface.
 
-A escolha busca proporcionar boa legibilidade em interfaces digitais e contribuir para uma aparência moderna, simples e objetiva.
-
-A tipografia acompanha a proposta visual do FocusPoint de oferecer uma experiência clara, organizada e de fácil compreensão.
+A escolha da Inter busca proporcionar boa legibilidade em interfaces digitais e contribuir para uma aparência moderna, simples e objetiva.
 
 ---
 
@@ -310,9 +290,9 @@ Esses recursos representam possibilidades futuras e não fazem parte obrigatoria
 
 O projeto inicial foi criado utilizando **Flutter**, atendendo à etapa inicial de desenvolvimento solicitada no Checkpoint 4.
 
-Nesta etapa, o objetivo é garantir que a estrutura inicial do projeto esteja configurada corretamente e que a aplicação consiga ser executada.
+Nesta etapa, o projeto apresenta a **tela inicial do FocusPoint funcionando em Flutter**, exibindo os quatro métodos de estudo definidos para a aplicação.
 
-A implementação completa das interfaces desenvolvidas no Figma está prevista para etapas futuras do desenvolvimento.
+A implementação completa das funcionalidades e das telas de cronômetro está prevista para etapas futuras do desenvolvimento.
 
 ---
 
@@ -336,7 +316,7 @@ Primeiramente, é necessário possuir o Flutter instalado e configurado.
 Clone o repositório:
 
 ```bash
-git clone (https://github.com/rezendelucca/CheckPoint4-5-6_CPAD.git)
+git clone COLE_AQUI_A_URL_DO_SEU_REPOSITORIO
 ```
 
 Acesse a pasta:
@@ -363,7 +343,7 @@ Neste estágio do desenvolvimento, o projeto pode ser executado utilizando o **G
 flutter run -d chrome
 ```
 
-Após a execução do comando, o Flutter realizará a build inicial e abrirá a aplicação no navegador.
+Após a execução do comando, o Flutter realizará a build inicial e abrirá a tela inicial do FocusPoint no navegador.
 
 ---
 
@@ -429,6 +409,7 @@ lib/main.dart
 - [x] Definição do diferencial competitivo;
 - [x] Definição inicial do modelo de negócio;
 - [x] Projeto Flutter inicial criado;
+- [x] Tela inicial do FocusPoint implementada em Flutter;
 - [x] Build inicial do Flutter funcionando;
 - [x] Repositório GitHub criado;
 - [x] Documentação inicial criada.
@@ -439,7 +420,7 @@ lib/main.dart
 
 As próximas etapas previstas para o desenvolvimento do FocusPoint incluem:
 
-- Implementação da interface do Figma utilizando Flutter;
+- Aprimoramento da interface em Flutter;
 - Desenvolvimento do cronômetro funcional;
 - Implementação da Técnica Pomodoro;
 - Implementação da Técnica Feynman;
