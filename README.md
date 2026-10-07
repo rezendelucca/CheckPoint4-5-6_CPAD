@@ -14,7 +14,7 @@ O projeto foi desenvolvido utilizando **Flutter e Dart**, com integração ao **
 
 ### 🎨 Protótipo e Identidade Visual — Figma
 
-[🔗 Acessar o projeto FocusPoint no Figma](https://www.figma.com/design/NpZ4CHYicY21IuoGD829oa/CheckPoint_cpad?node-id=0-1&p=f&t=1id8naTyvHdnJTyU-0)
+[🔗 Acessar o projeto FocusFlow no Figma](https://www.figma.com/design/NpZ4CHYicY21IuoGD829oa/CheckPoint_cpad?node-id=0-1&p=f&t=1id8naTyvHdnJTyU-0)
 
 O Figma contém a identidade visual desenvolvida para o projeto, o logo, as telas planejadas e a prototipação das principais interações do aplicativo.
 
